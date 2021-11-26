@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 char* StrCpy(char* src) {
+	int j;
 	int len = 0;
 	for (char* p = src;*p != NULL;p++) {
 		len++;
